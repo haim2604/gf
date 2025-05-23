@@ -278,7 +278,8 @@ const ResultScreen = ({ answers, onRestart, onChangeGift }) => {
         name: 'אוזניות בלוטות' + (answers[1] === 'זכר' ? ' גיימינג מתקדמות' : ' אלגנטיות'),
         description: 'אוזניות איכותיות עם ביטול רעשים, מושלמות עבור ' + (answers[4] || 'האדם המיוחד בחייך'),
         price: '₪149',
-        image: '/api/placeholder/400/400',
+        image: '/blue.jpg',
+//        image: '/api/placeholder/400/400',
         aliexpressLink: 'https://aliexpress.com/item/example',
         rating: 4.8,
         reviews: 2847
@@ -297,7 +298,8 @@ const ResultScreen = ({ answers, onRestart, onChangeGift }) => {
         name: reason === 'לא התאים לתקציב' ? 'מחזיק מפתחות LED חכם' : 'רמקול בלוטות' + (answers[1] === 'זכר' ? ' קומפקטי' : ' אלגנטי'),
         description: 'מתנה חלופית מושלמת שמתאימה לצרכים שלך',
         price: reason === 'לא התאים לתקציב' ? '₪39' : '₪89',
-        image: '/api/placeholder/400/400',
+ //       image: '/api/placeholder/400/400',
+        image: '/speker.png',
         aliexpressLink: 'https://aliexpress.com/item/example-alt',
         rating: 4.6,
         reviews: 1532
